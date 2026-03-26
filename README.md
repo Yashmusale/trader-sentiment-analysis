@@ -79,5 +79,19 @@ The analysis demonstrates that market sentiment significantly influences trader 
 Note : Dont forget to add csv files in your folder otherwise the notebook wont be execute, csv files are larger than 25 mb thats why i am not able to upload it.
 
 
+## 📊 Results
+
+### Trader PnL During Fear vs Greed
+![PnL](output/trader_pnl.png)
+
+### Number of Trades During Fear vs Greed
+![Trades](output/trades_count.png)
+
+### Average Trade Size by Sentiment
+![Trade Size](output/trades_size.png)
+
+### Trader Clusters
+![Clusters](output/clusters.png)
+
 
 ---
