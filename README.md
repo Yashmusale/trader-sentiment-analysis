@@ -16,32 +16,57 @@ Analyze how market sentiment (Fear/Greed) impacts trader behavior and performanc
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-## 📊 Methodology
 
-* Cleaned and standardized dataset columns
-* Converted timestamps and merged datasets on date
-* Created metrics:
+## 🔧 Methodology
 
-  * Daily PnL
-  * Win rate
-  * Trade size
-  * Trade frequency
-* Compared trader behavior across Fear vs Greed sentiment
+The analysis was conducted using two datasets: trader-level historical trading data and Bitcoin market sentiment (Fear/Greed index).
+
+First, data cleaning was performed by standardizing column names, handling missing values, and converting timestamp fields into a common date format. Both datasets were then merged on the date column to align trading activity with daily market sentiment.
+
+Key features were engineered to capture trader behavior and performance, including:
+
+* Daily Profit & Loss (PnL)
+* Win rate (profitable trades ratio)
+* Trade size (USD)
+* Trade frequency (number of trades per day)
+* Long/Short activity
+
+The analysis compared these metrics across different sentiment regimes (Fear vs Greed). Additionally, trader segmentation and a simple predictive model were implemented as part of the extended analysis.
 
 ---
 
 ## 🔍 Key Insights
 
-1. Traders tend to perform better during Greed phases with higher average PnL.
-2. During Fear, traders reduce position sizes and trade less frequently.
-3. High trade-size traders generate higher returns but also face higher risk.
+1. **Market sentiment impacts profitability**
+   Traders generally achieve higher average PnL during *Greed* periods, indicating favorable market conditions.
+
+2. **Behavior shifts during Fear periods**
+   During Fear phases, traders tend to reduce their activity by lowering trade size and frequency, reflecting cautious behavior.
+
+3. **Risk-return tradeoff among traders**
+   Traders with larger position sizes generate higher profits on average but also experience greater volatility and potential losses.
+
+4. **Trading activity increases in Greed markets**
+   The number of trades and overall participation tends to rise when market sentiment is positive.
 
 ---
 
 ## 💡 Strategy Recommendations
 
-* During Fear: Reduce trade size and avoid high-risk trades
-* During Greed: Increase participation but apply strict risk management
+1. **Adopt a defensive strategy during Fear periods**
+   Traders should reduce position sizes, avoid high leverage, and focus on capital preservation during uncertain market conditions.
+
+2. **Leverage opportunities during Greed periods with caution**
+   Increased trading activity can be beneficial in bullish conditions, but strict risk management (e.g., stop-loss) is essential to avoid large drawdowns.
+
+3. **Segment-based strategy optimization**
+   High-frequency or high-volume traders can capitalize on momentum during Greed phases, while low-risk traders should maintain consistent, smaller trades across all conditions.
+
+---
+
+## ✅ Conclusion
+
+The analysis demonstrates that market sentiment significantly influences trader behavior and performance. By adapting strategies based on sentiment signals, traders can improve decision-making and manage risk more effectively.
 
 ---
 
