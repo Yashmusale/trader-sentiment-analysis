@@ -2,10 +2,9 @@
 
 Due to size constraints, datasets are hosted externally:
 
-- Historical Trading Data: [https://your-link](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
-- Fear & Greed Index:  [https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view ](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view)
+- Historical Trading Data: [link](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+- Fear & Greed Index:  [link](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view)
 
-- 
 # Trader Performance vs Market Sentiment
 
 ## 📌 Objective
