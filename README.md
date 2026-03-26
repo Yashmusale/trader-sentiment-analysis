@@ -1,4 +1,11 @@
+## 📂 Dataset
 
+Due to size constraints, datasets are hosted externally:
+
+- Historical Trading Data: [https://your-link](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+- Fear & Greed Index:  [https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view ](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view)
+
+- 
 # Trader Performance vs Market Sentiment
 
 ## 📌 Objective
@@ -76,8 +83,6 @@ The analysis demonstrates that market sentiment significantly influences trader 
 * Clustered traders into behavioral segments
 
 ---
-Note : Dont forget to add csv files in your folder otherwise the notebook wont be execute, csv files are larger than 25 mb thats why i am not able to upload it.
-
 
 ## 📊 Results
 
