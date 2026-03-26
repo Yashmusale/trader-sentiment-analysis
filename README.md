@@ -76,6 +76,7 @@ The analysis demonstrates that market sentiment significantly influences trader 
 * Clustered traders into behavioral segments
 
 ---
+Note : Dont forget to add csv files in your folder otherwise the notebook wont be execute, csv files are larger than 25 mb thats why i am not able to upload it.
 
 
 
